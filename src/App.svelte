@@ -112,7 +112,7 @@
   }
   a.link{
     font-family: "Scratchy", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 1.2px;
   }
   div.claimed{
@@ -152,7 +152,7 @@
     {#if HEADER_TITLE}
       <a
         href={HEADER_LINK}
-        class="text-white tracking-widest underline underline-offset-4 decoration-2 font-mono link"
+        class="text-white tracking-widest decoration-2 font-mono link"
         >{HEADER_TITLE}</a
       >
     {/if}
