@@ -107,8 +107,8 @@
   });
 </script>
 <style>
-  main{
-    background-image: url("./images/out.png");
+  main.jejetl{
+    background-image: url('./images/out.png');
   }
   a.link{
     font-family: "Scratchy", sans-serif;
@@ -133,7 +133,7 @@
     letter-spacing: 1.3px;
   }
 </style>
-<main class="h-screen">
+<main class="h-screen jejetl">
   <!-- Error section -->
   {#if errorOcurred}
     <div class=" h-full flex">
