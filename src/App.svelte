@@ -153,7 +153,7 @@
       <a
         href={HEADER_LINK}
         class="text-white tracking-widest decoration-2 font-mono link"
-        >{HEADER_TITLE}</a
+        ><img src="./src/images/bg.png" alt="" class=" w-50 mx-auto m-5" /></a
       >
     {/if}
     <!-- Card -->
