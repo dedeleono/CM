@@ -11,6 +11,8 @@
   import confetti from "canvas-confetti";
   import { LAMPORTS_PER_SOL } from "@solana/web3.js";
 
+  const IMAGE_LINK = '../../src/images/logo.png';
+
   const txTimeout = 30000;
   const cluster = import.meta.env.VITE_APP_SOLANA_NETWORK?.toString();
 
@@ -126,27 +128,32 @@
 
 <div class="flex flex-col">
   {#if !solana}
+  <img src={IMAGE_LINK} alt="" class=" w-50 mx-auto m-5" />
     <button
       class=" px-3 py-2 rounded-md hover: text-white font-bold"
       on:click={() => window.open("https://phantom.app/", "_blank")}
       >Get Phantom Wallet</button
     >
   {:else if !$userState.walletPublicKey}
+  <img src={IMAGE_LINK} alt="" class=" w-50 mx-auto m-5" />
     <button
       class=" px-3 py-2 rounded-md hover: text-white font-bold"
       on:click={connectWalletButton}>Connect</button
     >
   {:else if !isActive && !userWhitelisted}
+  <img src={IMAGE_LINK} alt="" class=" w-50 mx-auto m-5" />
     <button
       class=" px-3 py-2 rounded-md hover: text-white font-bold disabled:bg-gray-400 "
       disabled={true}>Mint live @ {date.toUTCString()}</button
     >
   {:else if isSoldOut}
+  <img src={IMAGE_LINK} alt="" class=" w-50 mx-auto m-5" />
     <button
       class=" px-3 py-2 rounded-md hover: text-white font-bold "
       >Sold Out!</button
     >
   {:else if $userState.userBalance < price}
+  <img src={IMAGE_LINK} alt="" class=" w-50 mx-auto m-5" />
     <button
       class=" px-3 py-2 rounded-md hover:text-white font-bold disabled:bg-gray-400"
       disabled={true}
@@ -155,6 +162,7 @@
       ).toFixed(2)} SOL required)</button
     >
   {:else}
+  <img src={IMAGE_LINK} alt="" class=" w-50 mx-auto m-5" />
     <button
       class=" px-3 py-2 rounded-md hover:text-white font-bold disabled:bg-gray-400"
       disabled={isMinting}

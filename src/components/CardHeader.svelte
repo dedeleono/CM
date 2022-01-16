@@ -1,8 +1,6 @@
 <script>
   import { userState } from "../lib/store";
   import { LAMPORTS_PER_SOL } from "@solana/web3.js";
-
-  const IMAGE_LINK = '../../src/images/logo.png';
 </script>
 
 <style>
