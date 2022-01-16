@@ -18,7 +18,6 @@
 <div class="justify-end flex p-3">
   {#if $userState.isWhiteListed}
     <div class="flex mr-auto">
-      <img src={IMAGE_LINK} alt="" class=" w-50 mx-auto m-5" />
       <div class="my-auto text-gray-600 text-sm">Whitelist</div>
     </div>
   {/if}
@@ -29,7 +28,6 @@
     {:else}
       <div class=" flex flex-col">
         <div class="flex">
-          <img src={IMAGE_LINK} alt="" class=" w-50 mx-auto m-5" />
           <span class="my-auto mr-2 rounded-full h-2 w-2 bg-green-500" />
           <span class=" my-auto text-gray-600 text-sm">
             {$userState.walletPublicKey?.slice(0, 8)}

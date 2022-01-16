@@ -145,6 +145,7 @@
     <!-- Loading Section -->
   {:else if siteLoading && !errorOcurred}
     <div class=" h-full flex">
+      <img src={IMAGE_LINK} alt="" class=" w-50 mx-auto m-5" />
       <div class="lds-hourglass m-auto" />
     </div>
   {:else}
