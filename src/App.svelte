@@ -21,7 +21,7 @@
   const HEADER_TITLE = "sea-shanties.com";
   const HEADER_LINK = "https://sea-shanties.com";
   // Your image or GIF needs to be in the /public folder for this to work
-  const IMAGE_LINK = "./images/bg.png";
+  const IMAGE_LINK = "./images/out.png";
   /***********************************/
 
   const { solana } = window as any;
@@ -107,8 +107,8 @@
   });
 </script>
 <style>
-  main.jejetl{
-    background-image: url('./images/out.png');
+  main{
+    background-image: url('../public/images/out.png');
   }
   a.link{
     font-family: "Scratchy", sans-serif;
@@ -133,7 +133,7 @@
     letter-spacing: 1.3px;
   }
 </style>
-<main class="h-screen jejetl">
+<main class="h-screen">
   <!-- Error section -->
   {#if errorOcurred}
     <div class=" h-full flex">
