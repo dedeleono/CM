@@ -126,10 +126,10 @@
   }
   div.desc{
     font-family: "Scratchy", sans-serif;
-    color: #00698F;
-    font-size: 1.5rem;
-    font-weight: 300;
-    line-height: 1.1px;
+    color: #C7A974;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 1.2px;
     letter-spacing: 1.3px;
   }
 </style>
