@@ -21,7 +21,7 @@
   const HEADER_TITLE = "sea-shanties.com";
   const HEADER_LINK = "https://sea-shanties.com";
   // Your image or GIF needs to be in the /public folder for this to work
-  const IMAGE_LINK = "~/src/images/logo.png";
+  const IMAGE_LINK = "../src/images/logo.png";
   /***********************************/
 
   const { solana } = window as any;
@@ -167,7 +167,7 @@
       <br />
       <!-- Main Body -->
       <div class="p-6">
-        <img src={IMAGE_LINK} alt="" class=" w-50 mx-auto m-5" />
+        <img src="../src/images/logo.png" alt="" class=" w-50 mx-auto m-5" />
         <div class="text-sm sm:text-md font-semibold pb-5 text-gray-600 desc">
           {DESCRTIPTION}
         </div>
