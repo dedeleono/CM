@@ -167,7 +167,7 @@
       <br />
       <!-- Main Body -->
       <div class="p-6">
-        <img src="../src/images/logo.png" alt="" class=" w-50 mx-auto m-5" />
+        <img src="./src/images/bg.png" alt="" class=" w-50 mx-auto m-5" />
         <div class="text-sm sm:text-md font-semibold pb-5 text-gray-600 desc">
           {DESCRTIPTION}
         </div>
