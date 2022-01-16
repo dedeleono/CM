@@ -167,7 +167,7 @@
       <br />
       <!-- Main Body -->
       <div class="p-6">
-        <img src={IMAGE_LINK} alt="" class=" w-9/12 h-fit mx-auto m-5" />
+        <img src='./images/bg.png' alt="logo" class="w-9/12 h-fit mx-auto m-5" />
         <div class="text-sm sm:text-md font-semibold pb-5 text-gray-600 desc">
           {DESCRTIPTION}
         </div>
