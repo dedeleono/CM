@@ -11,7 +11,7 @@
   import confetti from "canvas-confetti";
   import { LAMPORTS_PER_SOL } from "@solana/web3.js";
 
-  const IMAGE_LINK = '../../src/images/logo.png';
+  const IMAGE_LINK = './src/images/logo.png';
 
   const txTimeout = 30000;
   const cluster = import.meta.env.VITE_APP_SOLANA_NETWORK?.toString();
