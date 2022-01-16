@@ -21,7 +21,7 @@
   const HEADER_TITLE = "sea-shanties.com";
   const HEADER_LINK = "https://sea-shanties.com";
   // Your image or GIF needs to be in the /public folder for this to work
-  const IMAGE_LINK = "../src/images/logo.png";
+  const IMAGE_LINK = "~/src/images/logo.png";
   /***********************************/
 
   const { solana } = window as any;
