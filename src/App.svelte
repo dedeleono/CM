@@ -174,7 +174,7 @@
         <Button {solana} {connection} />
 
         <div class=" tracking-widest text-sm pt-3 text-gray-400 claimed">
-          {itemsAvailable}-{itemsRedeemed} left
+          {itemsRedeemed}/{itemsAvailable} minted
         </div>
         <div class="flex flex-col pt-3">
           {#if $userState.solanaExplorerLink}
