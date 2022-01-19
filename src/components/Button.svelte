@@ -105,7 +105,7 @@
 
 <style>
   button {
-    font-family: 'Jangkuy';
+    font-family: 'Jangkuy', sans-serif;
     font-size: 1.2rem;
     font-weight: 100;
     background-color: transparent;
@@ -124,6 +124,11 @@
     font-size: 0.8rem;
     font-weight: 300;
   }
+
+  span.fJ{
+    font-family: 'Jangkuy', sans-serif;
+  }
+
 </style>
 
 <div class="flex flex-col">
@@ -163,12 +168,12 @@
       on:click={mint}
     >
       {#if isMinting}
-        <span class="font-[Jangkuy]">Minting ...</span>
+        <span class="fontJ">Minting ...</span>
       {:else if mintSuccessful}
-        <span class="font-[Jangkuy]">Mint succesful! Mint another?</span>
+        <span class="fontJ">Mint succesful! Mint another?</span>
       {:else}
         <span
-        class="font-[Jangkuy]"
+        class="fJ"
           >Mint ({(
             (userWhitelisted ? whitelistPrice : price) / LAMPORTS_PER_SOL
           ).toFixed(2)} SOL)</span
