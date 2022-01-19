@@ -165,7 +165,7 @@
       {#if isMinting}
         <span class="font-[Jangkuy]">Minting ...</span>
       {:else if mintSuccessful}
-        <span>Mint succesful! Mint another?</span>
+        <span class="font-[Jangkuy]">Mint succesful! Mint another?</span>
       {:else}
         <span
         class="font-[Jangkuy]"
