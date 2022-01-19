@@ -104,8 +104,8 @@
 </script>
 
 <style>
-  button{
-    font-family: 'Jangkuy', sans-serif;
+  button {
+    font-family: 'Jangkuy';
     font-size: 1.2rem;
     font-weight: 100;
     background-color: transparent;
