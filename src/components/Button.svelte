@@ -163,11 +163,12 @@
       on:click={mint}
     >
       {#if isMinting}
-        <span>Minting ...</span>
+        <span class="font-[Jangkuy]">Minting ...</span>
       {:else if mintSuccessful}
         <span>Mint succesful! Mint another?</span>
       {:else}
         <span
+        class="font-[Jangkuy]"
           >Mint ({(
             (userWhitelisted ? whitelistPrice : price) / LAMPORTS_PER_SOL
           ).toFixed(2)} SOL)</span
